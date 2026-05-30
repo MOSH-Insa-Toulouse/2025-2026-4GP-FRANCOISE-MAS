@@ -1,0 +1,189 @@
+(footprint "Capteur_graphite"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.77 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "91cf5895-7d4b-4537-a959-85d951705cdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capteur_graphite"
+		(at 0 -2.77 0)
+		(layer "F.Fab")
+		(uuid "ef796a93-f039-4638-af1c-d4277bc616fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef467a8a-c594-49da-aece-7f50c911f86c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05742345-da4e-4817-a75d-3a6ad3e25831")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.77 -1.77)
+		(end 2.77 -1.77)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a085ca0-bb40-4b73-8c01-4461165b5920")
+	)
+	(fp_line
+		(start -2.77 1.77)
+		(end -2.77 -1.77)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bba4cd9c-9d1d-4cd5-9b75-8ef74f729290")
+	)
+	(fp_line
+		(start 0 -1.77)
+		(end 0 1.77)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "345a7d88-7dec-43f2-9041-d6f1cd9312e8")
+	)
+	(fp_line
+		(start 2.77 -1.77)
+		(end 2.77 1.77)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dddafa9-22c4-44c9-b8da-c38167dada14")
+	)
+	(fp_line
+		(start 2.77 1.77)
+		(end -2.77 1.77)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9427dd9-5f86-46b0-be43-de4892d4a145")
+	)
+	(fp_line
+		(start -2.52 -1.52)
+		(end 2.52 -1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae8e18ec-2f06-40e6-8400-34ff12914036")
+	)
+	(fp_line
+		(start -2.52 1.52)
+		(end -2.52 -1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "425c0670-eb38-4b9e-be17-36d2da3fd9c1")
+	)
+	(fp_line
+		(start 2.52 -1.52)
+		(end 2.52 1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d2c20c4-2115-4a3f-b061-0b6b8dad3947")
+	)
+	(fp_line
+		(start 2.52 1.52)
+		(end -2.52 1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d009963c-23a9-4878-85ee-717583123374")
+	)
+	(fp_text user "2"
+		(at 2 3 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c852720-8740-4c02-8013-b91505a3e4cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "1"
+		(at -1 3 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfe7bcd0-22a8-4936-b00b-b64ae44b7102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 2 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "fbffec01-d670-48e4-a418-de575e4da0cb")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 0)
+		(size 2 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "b6e40c9c-e5f7-4ad0-845d-50461a9d5afc")
+	)
+	(embedded_fonts no)
+)
